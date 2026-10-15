@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Score Updates</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #061525;
+      color: white;
+    }
+    header {
+      background: #0b2638;
+      padding: 22px 14px;
+      text-align: center;
+      border-bottom: 2px solid #20e66b;
+    }
+    h1 { color: #20e66b; font-size: 25px; }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 15px 4px;
+      background: #10283b;
+    }
+    nav a { color: white; text-decoration: none; }
+    main { padding: 15px; }
+    .match {
+      background: #10283b;
+      border: 1px solid #24506a;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+    .live { color: #20e66b; font-weight: bold; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #b7c7d4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏏 Cricket Score Updates</h1>
+    <p>All Matches • Live Scores • Match Results</p>
+  </header>
+  <nav>
+    <a href="#live">Live</a>
+    <a href="#upcoming">Upcoming</a>
+    <a href="#results">Results</a>
+  </nav>
+  <main>
+    <h2 id="live">🔴 Live Matches</h2>
+    <div class="match">
+      <span class="live">● LIVE DEMO</span>
+      <h3>India vs Australia</h3>
+      <p>Score will appear here when live data is connected.</p>
+    </div>
+    <h2 id="upcoming">📅 Upcoming Matches</h2>
+    <div class="match">
+      Match schedules will appear here.
+    </div>
+    <h2 id="results">🏆 Match Results</h2>
+    <div class="match">
+      Match results will appear here.
+    </div>
+  </main>
+  <footer>
+    Cricket Score Updates © 2026
+  </footer>
+</body>
+</html>
